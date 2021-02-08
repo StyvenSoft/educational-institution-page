@@ -3,19 +3,8 @@ html(lang="es")
     head
         include includes/head.pug
     body
-        header
-            h1.brand My Lorem
-            nav
-                ul
-                    li 
-                        a.active(href='#') Welcome
-                    li 
-                        a(href='#') Dropdown
-                    li 
-                        a(href='#') Left Sidebar
-                    li 
-                        a(href='#') Right Sidebar
-                    li 
-                        a(href='#') No Sidebar
-
-        
+        block header
+            include blocks/header.pug
+        main.main
+            section.banner
+                include blocks/banner.pug
