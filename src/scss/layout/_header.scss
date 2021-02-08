@@ -1,0 +1,31 @@
+header {
+    padding: 3rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .brand {
+        font-family: $second-font;
+        color: $primary-color;
+        font-size: 2.5rem;
+    }
+    nav {
+        display: flex;
+
+        ul {
+            list-style: none;
+            display: flex;
+
+            li {
+                font-weight: 900;
+                font-size: 13px;
+                padding-left: 0.5rem;
+
+                a {
+                    padding: 0.5rem 1rem;
+                    text-decoration: none;
+                }  
+            }
+        }
+    }
+}
