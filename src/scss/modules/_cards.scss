@@ -1,0 +1,30 @@
+section.cards {
+    margin: 2rem 6rem;
+}
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    background-color: #fff;
+    color: #444;
+
+    &__section {
+        background-color: $white;
+        color: $dark-color;
+        border-radius: 5px;
+        box-shadow: $box-shadow;
+    }
+
+    &__img {
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+    }
+
+    &__body {
+        padding: 0.8rem;
+
+        &-subtitle {
+            margin-bottom: 0.5rem;
+        }
+    }
+}
