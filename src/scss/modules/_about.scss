@@ -4,5 +4,33 @@
 
     &__row {
         padding: 3rem 6rem;
+        display: flex;
+
+        .about__column-one {
+            padding: 1rem 1rem 1rem 0;
+            width: 40%;
+
+            .projects {
+                display: grid;
+                grid-template-columns: 120px 120px;
+                grid-gap: 15px;
+                margin-top: 1rem;
+
+                &__col img {
+                    width: 100%;
+                    border-radius: 5px;
+
+                }
+            }
+        }
+        .about__column-two {
+            width: 60%;
+            padding-left: 1rem;
+
+            .about__title {
+                margin-bottom: 0.5rem;
+            }
+        }
     }
 }
+
