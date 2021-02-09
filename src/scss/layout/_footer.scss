@@ -25,6 +25,18 @@
 
             &-social {
                 display: flex;
+
+                & li a {
+                    background-color: #444;
+                    color: #fff;
+                    width: 30px;
+                    height: 30px;
+                    display: block;
+                    padding: 5px;
+                    text-align: center;
+                    margin: 5px;
+                    border-radius: 5px;
+                }
             }
         }
     }
