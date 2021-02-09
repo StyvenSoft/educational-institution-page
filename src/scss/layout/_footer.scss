@@ -1,0 +1,36 @@
+.footer {
+    margin: 3rem 6rem;
+
+    &__row {
+        display: flex;
+
+        .footer__col {
+            padding: 1rem;
+
+            &-title {
+                margin-bottom: 1.5rem;
+            }
+
+            &-link {
+                display: grid;
+            }
+        }
+
+        .footer__contact {
+            padding: 1rem 3rem;
+
+            &-title {
+                margin-bottom: 1.5rem;
+            }
+
+            &-social {
+                display: flex;
+            }
+        }
+    }
+
+    &__copy {
+        text-align: center;
+        margin: 3rem;
+    }
+}
