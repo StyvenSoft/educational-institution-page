@@ -34,3 +34,16 @@
     }
 }
 
+@media screen and (max-width: 768px) {
+    .about__row {
+        padding: 3rem 1rem;
+        display: block;
+
+        .about__column-one, .about__column-two {
+            width: 100%;
+        }
+    }
+    .projects {
+        justify-content: center;
+    }
+}

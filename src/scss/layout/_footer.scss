@@ -46,3 +46,13 @@
         margin: 3rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .footer {
+        margin: 3rem 1rem;
+    }
+    .footer__row {
+        display: block;
+        padding: 0 3rem;
+    }
+}

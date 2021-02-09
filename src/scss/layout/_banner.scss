@@ -30,3 +30,18 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .banner {
+        margin: 0 1rem;
+
+        .row {
+            padding: 2rem;
+            display: block;
+
+            .column__one, .column__two {
+                width: 100%;
+            }
+        }
+    }
+}
