@@ -5,13 +5,19 @@ a.active {
 }
 
 
-.button__primary {
+.button__primary, .button__light {
     padding: 1rem 0.5em;
     margin: 1rem 2rem;
-    background: aquamarine;
+    background: $secondary-color;
     display: block;
     border-radius: 5px;
     font-size: 1.9rem;
     font-weight: 800;
     text-decoration: none;
+    color: $white;
+}
+
+.button__light {
+    background-color: $light-dark;
+    color: $dark-color;
 }
